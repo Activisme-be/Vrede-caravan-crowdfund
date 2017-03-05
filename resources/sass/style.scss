@@ -1,0 +1,498 @@
+/*
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+/* reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* start editing from here */
+a {
+  text-decoration: none;
+}
+
+.txt-rt {
+  text-align: right;
+}
+
+/* text align right */
+.txt-lt {
+  text-align: left;
+}
+
+/* text align left */
+.txt-center {
+  text-align: center;
+}
+
+/* text align center */
+.float-rt {
+  float: right;
+}
+
+/* float right */
+.float-lt {
+  float: left;
+}
+
+/* float left */
+.clear {
+  clear: both;
+}
+
+/* clear float */
+.pos-relative {
+  position: relative;
+}
+
+/* Position Relative */
+.pos-absolute {
+  position: absolute;
+}
+
+/* Position Absolute */
+.vertical-base {
+  vertical-align: baseline;
+}
+
+/* vertical align baseline */
+.vertical-top {
+  vertical-align: top;
+}
+
+/* vertical align top */
+.underline {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+  margin: 0 0 20px 0;
+}
+
+/* Add 5px bottom padding and a underline */
+nav.vertical ul li {
+  display: block;
+}
+
+/* vertical menu */
+nav.horizontal ul li {
+  display: inline-block;
+}
+
+/* horizontal menu */
+img {
+  max-width: 100%;
+}
+
+/*end reset*/
+@font-face {
+  font-family: 'caviar_dreamsregular';
+  src: url(../fonts/CaviarDreams-webfont.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'fontleroybrownregular';
+  src: url(../fonts/FontleroyBrown-webfont.ttf) format('truetype');
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../images/2.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+  transition: all .2s linear;
+  -moz-transition: all .2s linear; /* firefox */
+  -webkit-transition: all .2s linear; /* safari and chrome */
+  -o-transition: all .2s linear; /* opera */
+  -ms-transition: all .2s linear;
+}
+
+.header {
+  float: right;
+  width: 225px;
+  clear: both;
+}
+
+.header_top {
+  background: url(../images/bg.png);
+}
+
+.menu {
+  padding: 100px 0;
+}
+
+.menu li a {
+  display: block;
+  font-size: 1em;
+  color: #A3793D;
+  font-family: 'caviar_dreamsregular';
+  padding: 10px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: all .9s;
+  -moz-transition: all .9s;
+  -o-transition: all .9s;
+  -ms-transition: all .9s;
+  transition: all .9s;
+}
+
+.menu li:hover a {
+  background: url(../images/menu-hover.png) center;
+  color: #FFF;
+}
+
+.logo {
+  background: #FFF;
+  text-align: center;
+  padding: 50px 0;
+}
+
+/**** Content *****/
+
+/**** Footer *****/
+.footer {
+  padding: 30px 0;
+  background: url(../images/bg.png);
+  clear: both;
+  box-shadow: inset 0px 0px 5px rgba(56, 40, 15, 0.6);
+  -webkit-box-shadow: inset 0px 0px 5px rgba(56, 40, 15, 0.6);
+  -moz-box-shadow: inset 0px 0px 5px rgba(56, 40, 15, 0.6);
+  -o-box-shadow: inset 0px 0px 5px rgba(56, 40, 15, 0.6);
+}
+
+.copy_right {
+  text-align: right;
+}
+
+.copy_right h4 {
+  font-size: 0.85em;
+  color: #FFF;
+  font-family: 'caviar_dreamsregular';
+}
+
+.copy_right h4 span {
+  text-transform: uppercase;
+  font-size: 3em;
+  color: #AA7A3D;
+  vertical-align: middle;
+}
+
+.copy_right h4 a {
+  color: #EEE;
+  text-decoration: underline;
+  transition: all 300ms !important;
+  -webkit-transition: all 300ms !important;
+  -moz-transition: all 300ms !important;
+}
+
+.copy_right h4 a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/*  GRID OF THREE   ============================================================================= */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+.col_1_of_3 {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col_1_of_3:first-child {
+  margin-left: 0;
+}
+
+.span_1_of_3 {
+  width: 29.2%;
+  padding: 1.5%;
+}
+
+.content_top h3 {
+  font-size: 2.5em;
+  color: #AA7A3D;
+  padding: 5px 0;
+  font-family: 'caviar_dreamsregular';
+  border-bottom: 1px solid rgba(92, 49, 49, 0.29);
+  padding-bottom: 10px;
+}
+
+.span_1_of_3 p {
+  font-size: 0.85em;
+  color: #664617;
+  line-height: 1.8em;
+  padding: 5px 0;
+}
+
+.span_1_of_3 p span {
+  font-size: 1.2em;
+  color: #FFF;
+  font-family: 'caviar_dreamsregular';
+}
+
+.achive_list ul {
+  float: left;
+  width: 48%;
+}
+
+.achive_list ul.list2 {
+  margin-left: 4%;
+}
+
+.achive_list li a {
+  color: #CCC;
+  font-size: 1em;
+  display: block;
+  font-family: 'caviar_dreamsregular';
+  background: url(../images/list-icon.png) no-repeat 0;
+  padding: 8px 0 8px 15px;
+  transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+
+.achive_list li a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.sub_grid {
+  border-bottom: 1px dashed rgba(92, 49, 49, 0.29);
+  padding: 15px 0;
+}
+
+.sub_grid_data h4 a {
+  color: #B9B9B9;
+  font-size: 1.2em;
+  font-family: 'caviar_dreamsregular';
+  background: url(../images/list-icon.png) no-repeat 0 6px;
+  padding: 0px 0 0px 15px;
+  transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+
+.sub_grid_data h4 a:hover {
+  color: #FFF;
+}
+
+.sub_grid_data p {
+  font-size: 0.85em;
+  color: #664617;
+  line-height: 1.8em;
+  padding: 5px 0;
+}
+
+.catch-me {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.catch-me ul li {
+  display: inline-block;
+}
+
+.catch-me h3 {
+  font-family: 'caviar_dreamsregular';
+  color: #FFF;
+  font-size: 3em;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.catch-me p {
+  color: #EEE;
+  font-size: 0.85em;
+  line-height: 1.8em;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.catch-me ul li a {
+  display: block;
+  margin: 0px 10px;
+}
+
+.catch-me ul li a img {
+  border-radius: 5em;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -o-border-radius: 5em;
+}
+
+/****** Gallery ****/
+/*  GRID OF Four   ============================================================================= */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+.grid_1_of_4 {
+  display: block;
+  float: left;
+  margin: 2% 0 2% 1.6%;
+}
+
+.grid_1_of_4:first-child {
+  margin-left: 0;
+}
+
+.images_1_of_4 {
+  width: 23%;
+  position: relative;
+}
+
+.images_1_of_4 img {
+  max-width: 100%;
+  display: block;
+  padding: 4px;
+  background: #4D2E1C;
+  border: 1px solid #4D2E1C;
+}
+
+.zoom-icon {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+  background: rgba(64, 72, 109, 0.61);
+  display: block;
+  left: 0;
+  top: -152px;
+  width: 290px;
+  height: 219px;
+  background: url(../images/zoom.png) center center no-repeat;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+
+.images_1_of_4 .zoom-icon {
+  top: -50px;
+  width: 100%;
+  height: 182px;
+}
+
+.images_1_of_4 a:hover .zoom-icon {
+  top: 0;
+  opacity: 1;
+  filter: alpha(opacity=99); /* internet explorer */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
