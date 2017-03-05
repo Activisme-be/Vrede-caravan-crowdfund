@@ -2,13 +2,16 @@
   .wrap {
     width: 90%;
   }
+
   .introduction h1 {
     font-size: 3.5em;
   }
+
   .introduction p {
     font-size: 1.2em;
   }
-  .images_1_of_4 .zoom-icon {
+
+  .images-1-of-4 .zoom-icon {
     height: 145px;
   }
 }
@@ -17,16 +20,20 @@
   .wrap {
     width: 95%;
   }
+
   .menu {
     padding: 50px 0;
   }
+
   .introduction h1 {
     font-size: 3em;
   }
+
   .introduction p {
     font-size: 1em;
   }
-  .images_1_of_4 .zoom-icon {
+
+  .images-1-of-4 .zoom-icon {
     height: 135px;
   }
 }
@@ -35,36 +42,46 @@
   .wrap {
     width: 95%;
   }
+
   .logo {
     padding: 20px 0;
   }
+
   .introduction {
     padding: 10px 0;
   }
+
   .introduction h1 {
     font-size: 2.4em;
   }
-  .span_1_of_3 {
-    width: 94%;
+
+  .span-1-of-3 {
     padding: 3%;
+    width: 94%;
   }
-  .col_1_of_3 {
+
+  .col-1-of-3 {
     margin: 0;
   }
+
   .catch-me {
     padding: 10px 0;
   }
+
   .catch-me p {
     width: 100%;
   }
+
   .col {
     margin: 0;
   }
-  .span_2_of_3 {
-    width: 94%;
+
+  .span-2-of-3 {
     padding: 3%;
+    width: 94%;
   }
-  .grid_1_of_4 {
+
+  .grid-1-of-4 {
     margin: 0;
   }
 }
@@ -73,14 +90,17 @@
   .wrap {
     width: 95%;
   }
+
   .introduction h1 {
     font-size: 2.6em;
   }
-  .images_1_of_4 {
-    width: 94%;
+
+  .images-1-of-4 {
     padding: 3%;
+    width: 94%;
   }
-  .images_1_of_4 a:hover .zoom-icon {
+
+  .images-1-of-4 a:hover .zoom-icon {
     top: 75px;
   }
 }
@@ -89,30 +109,40 @@
   .wrap {
     width: 95%;
   }
-  .introduction_img, .introduction_desc {
-    width: 94%;
+
+  .introduction-img,
+  .introduction-desc {
     padding: 3%;
     text-align: center;
+    width: 94%;
   }
-  .rsidebar, .cont {
+
+  .rsidebar,
+  .cont {
     margin: 0;
   }
+
   .logo h1 a {
     font-size: 4em;
   }
+
   .header {
     width: 195px;
   }
+
   .menu {
     padding: 30px 0;
   }
+
   .catch-me ul li {
     width: 32%;
   }
+
   .catch-me ul li a {
     margin: 0 5px;
   }
-  .images_1_of_4 a:hover .zoom-icon {
+
+  .images-1-of-4 a:hover .zoom-icon {
     top: 40px;
   }
 }

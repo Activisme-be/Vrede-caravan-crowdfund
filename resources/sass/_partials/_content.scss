@@ -12,7 +12,7 @@
 
 .group:before,
 .group:after {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -36,12 +36,12 @@
   margin: 1% 1.6% 1% 0;
 }
 
-.introduction_desc {
+.introduction-desc {
   width: 63.1%;
   padding: 1.5%;
 }
 
-.introduction_img {
+.introduction-img {
   width: 29.2%;
   padding: 0 1.5%;
 }
@@ -57,17 +57,17 @@
 .introduction h1 {
   font-family: 'caviar_dreamsregular';
   font-size: 4.5em;
-  color: #FFF;
+  color: $white;
 }
 
 .introduction h1 span {
-  color: #A5793A;
+  color: #a5793a;
 }
 
 .introduction p {
   font-family: 'caviar_dreamsregular';
   font-size: 1.5em;
-  color: #EEE;
+  color: #eee;
   padding-top: 10px;
   line-height: 1.6em;
 }
