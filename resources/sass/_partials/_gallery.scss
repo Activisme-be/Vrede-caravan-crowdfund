@@ -1,7 +1,7 @@
 .section {
   clear: both;
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .group:before,
@@ -29,45 +29,48 @@
 }
 
 .images-1-of-4 {
-  width: 23%;
   position: relative;
-}
+  width: 23%;
 
-.images-1-of-4 img {
-  max-width: 100%;
-  display: block;
-  padding: 4px;
-  background: $brown;
-  border: 1px solid $brown;
+  // .images-1-of-4 .zoom-icon
+  .zoom-icon {
+    height: 182px;
+    top: -50px;
+    width: 100%;
+  }
+
+  // .images-1-of-4 img
+  img {
+    background: $brown;
+    border: 1px solid $brown;
+    display: block;
+    max-width: 100%;
+    padding: 4px;
+  }
+
+  // .images-1-of-4 a:hover .zoom-icon
+  a:hover .zoom-icon {
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(opacity=99)'; // IE8
+    filter: alpha(opacity=99); // internet explorer
+    opacity: 1;
+    top: 0;
+  }
 }
 
 .zoom-icon {
-  position: absolute;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
-  background: rgba(64, 72, 109, 0.61);
-  display: block;
-  left: 0;
-  top: -152px;
-  width: 290px;
-  height: 219px;
   background: url('../images/zoom.png') center center no-repeat;
+  background: rgba(64, 72, 109, .61);
   cursor: pointer;
-  -webkit-transition: all .2s ease-in-out;
+  display: block;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(opacity=0)';
+  filter: alpha(opacity=0);
+  height: 219px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: -152px;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
-}
-
-.images-1-of-4 .zoom-icon {
-  top: -50px;
-  width: 100%;
-  height: 182px;
-}
-
-.images-1-of-4 a:hover .zoom-icon {
-  top: 0;
-  opacity: 1;
-  filter: alpha(opacity=99); // internet explorer
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; // IE8
+  -webkit-transition: all .2s ease-in-out;
+  width: 290px;
 }

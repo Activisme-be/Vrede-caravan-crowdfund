@@ -42,7 +42,35 @@
   margin-top: 15px;
   padding-bottom: 30px;
   position: relative;
-  
+
+  // .contact-form input[type="submit"]
+  input[type="submit"] {
+    -webkit-appearance: none;
+    -webkit-appearance: none;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: $dirt-3;
+    border: 0;
+    color: $white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+
+    // .contact-form input[type="submit"]:hover
+    &:hover {
+      background: $white;
+      color: $dirt-3;
+      padding: 10px 35px;
+    }
+  }
+
   // .contact-form div
   div {
     padding: 3px 0;
@@ -50,7 +78,7 @@
 
   // .contact-form span
   span {
-    color: #8f5b0f;
+    color: $pure-brown;
     display: block;
     font-family: verdana, arial, helvetica, helve, sans-serif;
     font-size: .8125em;
@@ -66,21 +94,21 @@
 
 .contact-form input[type="text"],
 .contact-form textarea {
-  padding: 8px;
-  display: block;
-  width: 95%;
+  -webkit-appearance: none;
   background: $light-black;
   border: 1px solid rgba(255, 255, 255, 0);
-  outline: none;
   color: $white;
-  font-size: 1.1em;
+  display: block;
   font-family: Arial, Helvetica, sans-serif;
-  -webkit-appearance: none;
-  transition: border-color .3s;
-  -o-transition: border-color .3s;
-  -ms-transition: border-color .3s;
+  font-size: 1.1em;
+  outline: none;
+  padding: 8px;
   -moz-transition: border-color .3s;
+  -ms-transition: border-color .3s;
+  -o-transition: border-color .3s;
   -webkit-transition: border-color .3s;
+  transition: border-color .3s;
+  width: 95%;
 }
 
 .contact-form input[type="text"]:focus,
@@ -88,59 +116,35 @@
   border: 1px solid rgba(170, 122, 61, .34);
 }
 
-.contact-form input[type="submit"] {
-  font-size: 1em;
-  cursor: pointer;
-  text-transform: uppercase;
-  color: $white;
-  padding: 10px 20px;
-  border: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  -webkit-appearance: none;
-  transition: all .5s;
-  -webkit-transition: all .5s;
-  background-color: #AD6A0A;
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-appearance: none;
-  position: absolute;
-  right: 0;
-
-  // .contact-form input[type="submit"]:hover
-  &:hover {
-    padding: 10px 35px;
-    color: #ad6a0a;
-    background: $white;
-  }
-}
-
 .company-address {
   padding-top: 5px;
 
   // .company-address h5
   h5 {
-    font-size: .85em;
     color: $white;
+    font-size: .85em;
     font-weight: bold;
   }
-}
 
-.company-address p {
-  font-size: .8125em;
-  color: #664617;
-  padding: 5px 0;
-  font-family: verdana, arial, helvetica, helve, sans-serif;
-}
+  // .company-address p
+  p {
+    color: $light-brown;
+    font-family: verdana, arial, helvetica, helve, sans-serif;
+    font-size: .8125em;
+    padding: 5px 0;
 
-.company-address p span {
-  text-decoration: underline;
-  color: #885a16;
-  cursor: pointer;
-}
+    // .company-address p span
+    span {
+      color: $lighter-brown;
+      cursor: pointer;
+      text-decoration: underline;
 
-.company-address p span:hover {
-  color: $white;
+      // .company-address p span:hover
+      &:hover {
+        color: $white;
+      }
+    }
+  }
 }
 
 .map {
