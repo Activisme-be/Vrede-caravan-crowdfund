@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86584277-5236-4576-adc3-76c711603269" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/sass/_partials/_style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.scss-lint.yml" afterPath="$PROJECT_DIR$/.scss-lint.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_modules/_variables.scss" afterPath="$PROJECT_DIR$/resources/sass/_modules/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_partials/_contact.scss" afterPath="$PROJECT_DIR$/resources/sass/_partials/_contact.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_partials/_content.scss" afterPath="$PROJECT_DIR$/resources/sass/_partials/_content.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_partials/_fonts.scss" afterPath="$PROJECT_DIR$/resources/sass/_partials/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_partials/_footer.scss" afterPath="$PROJECT_DIR$/resources/sass/_partials/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_partials/_gallery.scss" afterPath="$PROJECT_DIR$/resources/sass/_partials/_gallery.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_partials/_reset.scss" afterPath="$PROJECT_DIR$/resources/sass/_partials/_reset.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/_partials/_typography.scss" afterPath="$PROJECT_DIR$/resources/sass/_partials/_typography.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/style.scss" afterPath="$PROJECT_DIR$/resources/sass/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,11 +22,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/_modules/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/sass/_partials/_style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="279" column="0" lean-forward="true" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,7 +101,6 @@
         <option value="$PROJECT_DIR$/resources/sass/_media/_queries.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/sass/_partials/_about.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/style.scss" />
         <option value="$PROJECT_DIR$/resources/sass/_partials/_typography.scss" />
         <option value="$PROJECT_DIR$/.scss-lint.yml" />
         <option value="$PROJECT_DIR$/resources/sass/_partials/_reset.scss" />
@@ -99,6 +110,8 @@
         <option value="$PROJECT_DIR$/resources/sass/_partials/_content.scss" />
         <option value="$PROJECT_DIR$/resources/sass/_partials/_contact.scss" />
         <option value="$PROJECT_DIR$/resources/sass/_modules/_variables.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/style.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/_partials/_style.scss" />
       </list>
     </option>
   </component>
@@ -335,12 +348,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488747022121</updated>
-      <workItem from="1488747023830" duration="12556000" />
+      <workItem from="1488747023830" duration="12600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12556000" />
+    <option name="totallyTimeSpent" value="12600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -449,14 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="221" column="31" lean-forward="false" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/_partials/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -485,6 +490,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_partials/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="279" column="0" lean-forward="true" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
           <folding />
         </state>
       </provider>
