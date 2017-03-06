@@ -92,7 +92,7 @@ body {
 
   // .menu li a
   li a {
-    color: #a3793d;
+    color: $dark-orange;
     display: block;
     font-family: 'caviar_dreamsregular';
     font-size: 1em;
@@ -156,48 +156,49 @@ body {
 
   // .span-1-of-3 p
   p {
+    color: $light-brown;
     font-size: .85em;
-    color: #664617;
     line-height: 1.8em;
     padding: 5px 0;
+
+    // .span-1-of-3 p span
+    span {
+      color: $white;
+      font-family: 'caviar_dreamsregular';
+      font-size: 1.2em;
+    }
   }
 }
 
 .content-top h3 {
-  font-size: 2.5em;
-  color: #AA7A3D;
-  padding: 5px 0;
-  font-family: 'caviar_dreamsregular';
   border-bottom: 1px solid rgba(92, 49, 49, .29);
-  padding-bottom: 10px;
-}
-
-.span-1-of-3 p span {
-  font-size: 1.2em;
-  color: $white;
+  color: $dirt;
   font-family: 'caviar_dreamsregular';
+  font-size: 2.5em;
+  padding: 5px 0 10px;
 }
 
 .achive-list ul {
   float: left;
   width: 48%;
-}
 
-.achive-list ul.list2 {
-  margin-left: 4%;
+  // .achive-list ul.list2
+  &.list2 {
+    margin-left: 4%;
+  }
 }
 
 .achive-list li a {
-  color: #ccc;
-  font-size: 1em;
+  background: url('../images/list-icon.png') no-repeat 0;
+  color: $white-light;
   display: block;
   font-family: 'caviar_dreamsregular';
-  background: url('../images/list-icon.png') no-repeat 0;
+  font-size: 1em;
   padding: 8px 0 8px 15px;
-  transition: .5s ease;
   -moz-transition: .5s ease;
   -o-transition: .5s ease;
   -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
 .achive-list li a:hover {
@@ -211,7 +212,7 @@ body {
 }
 
 .sub-grid-data h4 a {
-  color: #B9B9B9;
+  color: $gray;
   font-size: 1.2em;
   font-family: 'caviar_dreamsregular';
   background: url('../images/list-icon.png') no-repeat 0 6px;
