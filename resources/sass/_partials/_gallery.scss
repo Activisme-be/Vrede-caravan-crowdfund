@@ -1,0 +1,81 @@
+// Author: W3layouts
+// Author URL: http://w3layouts.com
+// License: Creative Commons Attribution 3.0 Unported
+// License URL: http://creativecommons.org/licenses/by/3.0/
+
+.section {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.group:before,
+.group:after {
+  content: '';
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+.grid-1-of-4 {
+  display: block;
+  float: left;
+  margin: 2% 0 2% 1.6%;
+}
+
+.grid-1-of-4:first-child {
+  margin-left: 0;
+}
+
+.images-1-of-4 {
+  position: relative;
+  width: 23%;
+
+  // .images-1-of-4 .zoom-icon
+  .zoom-icon {
+    height: 182px;
+    top: -50px;
+    width: 100%;
+  }
+
+  // .images-1-of-4 img
+  img {
+    background: $brown;
+    border: 1px solid $brown;
+    display: block;
+    max-width: 100%;
+    padding: 4px;
+  }
+
+  // .images-1-of-4 a:hover .zoom-icon
+  a:hover .zoom-icon {
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(opacity=99)'; // IE8
+    filter: alpha(opacity=99); // internet explorer
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.zoom-icon {
+  background: url('../images/zoom.png') center center no-repeat;
+  background: rgba(64, 72, 109, .61);
+  cursor: pointer;
+  display: block;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(opacity=0)';
+  filter: alpha(opacity=0);
+  height: 219px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: -152px;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  width: 290px;
+}

@@ -1,0 +1,82 @@
+// Author: W3layouts
+// Author URL: http://w3layouts.com
+// License: Creative Commons Attribution 3.0 Unported
+// License URL: http://creativecommons.org/licenses/by/3.0/
+
+.introduction {
+  background: rgba(39, 22, 11, .91);
+  clear: both;
+  padding: 30px 0;
+
+  // .introduction p
+  p {
+    color: $white-darker;
+    font-family: 'caviar_dreamsregular';
+    font-size: 1.5em;
+    line-height: 1.6em;
+    padding-top: 10px;
+  }
+
+  // .introduction h1
+  h1 {
+    color: $white;
+    font-family: 'caviar_dreamsregular';
+    font-size: 4.5em;
+
+    // .indtroduction h1 span
+    span {
+      color: $dirt-2;
+    }
+  }
+}
+
+.section {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.group:before,
+.group:after {
+  content: '';
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+.cont {
+  display: block;
+  float: left;
+  margin: 1% 0;
+}
+
+.rsidebar {
+  display: block;
+  float: left;
+  margin: 1% 1.6% 1% 0;
+}
+
+.introduction-desc {
+  padding: 1.5%;
+  width: 63.1%;
+}
+
+.introduction-img {
+  padding: 0 1.5%;
+  width: 29.2%;
+
+  // .introduction-img img
+  img {
+    border: 5px solid $brown;
+    -moz-border-radius: 15em;
+    -o-border-radius: 15em;
+    -webkit-border-radius: 15em;
+    border-radius: 15em;
+  }
+}
