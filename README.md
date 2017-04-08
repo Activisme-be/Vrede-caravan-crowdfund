@@ -1,5 +1,7 @@
 # Crowdfund activisme_be
 
+**NOTE:** The support for this repo is quitted.
+
 This website is designed by W3layouts under their [LICENSE](https://w3layouts.com/license/)
 
 ## Security Vulnerabilities
